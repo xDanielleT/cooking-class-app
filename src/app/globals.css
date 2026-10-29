@@ -142,7 +142,8 @@ button {
 
 .flavor-hero-image {
   animation: flavor-hero-drift 18s ease-in-out infinite alternate;
-  transform-origin: center;
+  /* Zoom from the top edge so Danii's bun is never pushed out of frame */
+  transform-origin: center top;
 }
 
 @keyframes flavor-hero-drift {

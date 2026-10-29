@@ -77,7 +77,7 @@ export default function Home() {
           fill
           priority
           sizes="100vw"
-          className="flavor-hero-image object-cover object-center"
+          className="flavor-hero-image object-cover object-[30%_top]"
         />
 
         {/* Darkens the text area without hiding the kitchen */}
